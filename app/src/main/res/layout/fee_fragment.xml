@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:id="@+id/semester"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/purple4"
+        android:paddingTop="20dp"
+        android:paddingLeft="5dp"
+        tools:context=".ui.semester.SemesterFragment">
+
+    <GridLayout
+        android:layout_width="372dp"
+        android:layout_height="425dp"
+        android:columnCount="2"
+        android:paddingRight="10dp"
+        android:rowCount="8">
+
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="20dp"
+            android:text="Amount Paid   : "
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="20dp"
+            android:inputType="numberSigned"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            android:textIsSelectable="false" />
+
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="-35dp"
+            android:text="Payment   : "
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spin"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:entries="@array/payment" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:text="Account No.    : "
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_marginTop="2dp"
+            android:inputType="numberSigned"
+            android:layout_marginBottom="3dp"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="45dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Account Name  : "
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt3"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="3dp"
+            android:inputType="textPersonName"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="-115dp"
+            android:text="Date   : "
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt4"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="3dp"
+            android:inputType="number"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="-5dp"
+            android:text="Bank Name  : "
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt5"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="3dp"
+            android:inputType="text"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            android:textIsSelectable="false" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="-35dp"
+            android:text="IFSC Code : "
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edt6"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:layout_marginTop="2dp"
+            android:inputType="text"
+            android:backgroundTint="#fff"
+            android:layout_marginBottom="3dp"
+            android:textColor="#fff"
+            android:textIsSelectable="false" />
+
+
+    </GridLayout>
+
+    <Button
+            android:id="@+id/button"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btnconform"
+            android:text="Submit"
+            android:textColor="@color/white" />
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">HomeAssignment</string>
+    <string name="title_activity_menu_bar">MenuBar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Shivani Jaiswal</string>
+    <string name="nav_header_subtitle">shivjais603@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="notice">Note:
+                          Any further changes should not be consider.
+                          Please fill form carefully.</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_editprofile">Profile</string>
+    <string name="menu_semester">Apply For Semester</string>
+    <string name="menu_fee">Apply For Fee Extension</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_report">Report</string>
+
+    <string-array name="semester">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="payment">
+        <item>NEFT</item>
+        <item>Online Transfer</item>
+        <item>IMPS</item>
+        <item>RTGS</item>
+        <item>Net Banking</item>
+        <item>Account</item>
+    </string-array>
+
+
+    <string name="first_slide_desc">“Some people get an education without going to college. The rest get it after they get out.” ― Mark Twain</string>
+    <string name="second_slide_desc"> “It not what you achieve, it what you overcome. That what defines your career.” ― Carlton Fisk"</string>
+    <string name="third_slide_desc"> “The computer was born to solve problems that did not exist before.”— Bill Gates </string>
+    <string name="fourth_slide_desc"> “It is a simple feat of scientific electrical engineering — only expensive — blind, faint-hearted, doubting world.”— Nikola Tesla </string>
+    <string name="faculty"><b>“Better than a thousand days of diligent study is one day with a great Faculty.”– Japanese proverb</b></string>
+    <string name="title_activity_menu_bar1">MenuBar1</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>

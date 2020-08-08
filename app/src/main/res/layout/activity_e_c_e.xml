@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/purple4"
+    android:padding="20dp"
+    tools:context=".CSE">
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="ECE Courses Offered "
+        android:textColor="#fff"
+        android:textSize="20dp" />
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:buttonTint="#fff"
+        android:textColor="#fff"
+        android:text="Digital Signal Processing" />
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:buttonTint="#fff"
+        android:textColor="#fff"
+        android:text="Hardware Description Language" />
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:buttonTint="#fff"
+        android:textColor="#fff"
+        android:text="Control System" />
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:buttonTint="#fff"
+        android:textColor="#fff"
+        android:text="Electromagnetics" />
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:buttonTint="#fff"
+        android:textColor="#fff"
+        android:text="Computer Architecture and Organization" />
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:buttonTint="#fff"
+        android:textColor="#fff"
+        android:text="Microprocessor and Interfacing Unit" />
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton10"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:scaleX="0.9"-->
+<!--        android:scaleY="0.9"-->
+<!--        android:buttonTint="#fff"-->
+<!--        android:textColor="#fff"-->
+<!--        android:text="Signals and System" />-->
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton13"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:scaleX="0.9"-->
+<!--        android:scaleY="0.9"-->
+<!--        android:buttonTint="#fff"-->
+<!--        android:textColor="#fff"-->
+<!--        android:text="Analog IC" />-->
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton14"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:scaleX="0.9"-->
+<!--        android:scaleY="0.9"-->
+<!--        android:buttonTint="#fff"-->
+<!--        android:textColor="#fff"-->
+<!--        android:text="Network Theory" />-->
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton11"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:scaleX="0.9"-->
+<!--        android:scaleY="0.9"-->
+<!--        android:buttonTint="#fff"-->
+<!--        android:textColor="#fff"-->
+<!--        android:text="IT Workshop - I" />-->
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton12"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:scaleX="0.9"-->
+<!--        android:scaleY="0.9"-->
+<!--        android:buttonTint="#fff"-->
+<!--        android:textColor="#fff"-->
+<!--        android:text="IT Workshop - II" />-->
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/btnconform"
+        android:text="Submit"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

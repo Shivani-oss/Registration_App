@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/purple"
+    android:layout_height="match_parent"
+    tools:context=".Regitration">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="40dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:inputType="textPersonName"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Name"/>
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:inputType="textEmailAddress"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Email"/>
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:inputType="textPassword"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edittext_background"
+            android:hint="Password"/>
+        <EditText
+            android:id="@+id/etConPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:inputType="textPassword"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edittext_background"
+            android:hint="Conform Password"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif-condensed-light"
+                android:buttonTint="#fff"
+                android:text="Faculty" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed-light"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:buttonTint="#fff"
+                android:text="Student" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnlogin"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:text="Register"
+            android:layout_marginTop="30dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:stateListAnimator="@null"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#00000000"
+            android:drawableEnd="@drawable/ic_navigate_before_black_24dp"
+            android:drawableRight="@drawable/ic_navigate_before_black_24dp"
+            android:paddingBottom="30dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

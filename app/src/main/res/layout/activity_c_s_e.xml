@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/purple4"
+    android:padding="20dp"
+    tools:context=".CSE">
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="CSE Courses Offered "
+        android:textColor="#fff"
+        android:textSize="20dp" />
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:buttonTint="#fff"
+        android:textColor="#fff"
+        android:text="Designing Analysis of Algorithm" />
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:buttonTint="#fff"
+        android:textColor="#fff"
+        android:text="Data Structure and Analysis" />
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:buttonTint="#fff"
+        android:textColor="#fff"
+        android:text="Discrete Maths and Graph Theory" />
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:buttonTint="#fff"
+        android:textColor="#fff"
+        android:text="Object Orient Programming " />
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:buttonTint="#fff"
+        android:textColor="#fff"
+        android:text="Operating System " />
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:buttonTint="#fff"
+        android:textColor="#fff"
+        android:text="Microprocessor and Interfacing Unit" />
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton10"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:scaleX="0.9"-->
+<!--        android:scaleY="0.9"-->
+<!--        android:buttonTint="#fff"-->
+<!--        android:textColor="#fff"-->
+<!--        android:text="Computer System Organization" />-->
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton13"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:scaleX="0.9"-->
+<!--        android:scaleY="0.9"-->
+<!--        android:buttonTint="#fff"-->
+<!--        android:textColor="#fff"-->
+<!--        android:text="Desining principle of programming language" />-->
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton11"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:scaleX="0.9"-->
+<!--        android:scaleY="0.9"-->
+<!--        android:buttonTint="#fff"-->
+<!--        android:textColor="#fff"-->
+<!--        android:text="IT Workshop - I" />-->
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioButton12"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:scaleX="0.9"-->
+<!--        android:scaleY="0.9"-->
+<!--        android:buttonTint="#fff"-->
+<!--        android:textColor="#fff"-->
+<!--        android:text="IT Workshop - II" />-->
+
+
+    <Button
+        android:id="@id/btn"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/btnconform"
+        android:text="Submit"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

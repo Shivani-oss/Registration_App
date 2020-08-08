@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.homeassignment.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/home_fragment" />
+
+    <fragment
+        android:id="@+id/nav_editprofile"
+        android:name="com.example.homeassignment.ui.editprofile.EditProfileFragment"
+        android:label="Edit Profile"
+        tools:layout="@layout/edit_profile_fragment" />
+
+    <fragment
+        android:id="@+id/nav_semester"
+        android:name="com.example.homeassignment.ui.semester.SemesterFragment"
+        android:label="Semester"
+        tools:layout="@layout/semester_fragment" />
+
+    <fragment
+        android:id="@+id/nav_fee"
+        android:name="com.example.homeassignment.ui.fee.FeeFragment"
+        android:label="Fee"
+        tools:layout="@layout/fee_fragment" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.homeassignment.ui.logout.LogoutFragment"
+        android:label="Logout" />
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.homeassignment.ui.feedback.FeedBackFragment"
+        android:label="FeedBack"
+        tools:layout="@layout/feed_back_fragment" />
+
+</navigation>
